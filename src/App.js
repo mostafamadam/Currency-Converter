@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route } from "react-router-dom";
+import Rates from "./Components/Rates/Rates.jsx";
+import Conversion from "./Components/Conversion/Conversion.jsx";
+import Conversion2 from './Components/Conversion/Conversion2.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route exact path="/Rates" component={Rates}></Route>
+      <Route exact path="/Conversion" component={Conversion}></Route>
+      <Route exact path="/Conversion2" component={Conversion2}></Route>
+      <Route path="/" component={Footer}></Route>
     </div>
   );
 }

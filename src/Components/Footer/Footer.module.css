@@ -1,0 +1,23 @@
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bold !important;
+    color: black;
+}
+
+.Footer{
+    position: fixed;
+}
+
+.btnlight {
+    background-color: #fff ;
+    border-color: #caced2;
+    padding:15px 0;
+    border-bottom: none;
+}
+
+.btnlight:hover {
+    color: #0052a3;
+}

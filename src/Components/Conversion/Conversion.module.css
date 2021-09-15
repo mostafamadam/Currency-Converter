@@ -1,0 +1,27 @@
+label {
+    margin-bottom: 0;
+}
+.Top {
+    background-color: rgb(50, 81, 139);
+}
+
+.ddls {
+    border: 1px solid #caced2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.calcbtn {
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: rgb(50, 81, 139);
+    color: #fff;
+    width: 100%;
+}
+
+.currmar {
+    margin-top: 2rem;
+    background-color: #a9acaf;
+}

@@ -1,0 +1,27 @@
+.Top {
+    background-color: rgb(50, 81, 139);
+}
+
+.img {
+    width: 80px;
+}
+
+.flagimg {
+    width: 100%;
+}
+
+.btm {
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.boxshaddow {
+    border: none;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.CurImgs{
+    width: 25px;
+}
