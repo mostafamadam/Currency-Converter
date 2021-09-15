@@ -39,7 +39,6 @@ class Conversion extends Component {
         } else {
             alert('please enter the the required data');
         }
-
     }
     render() {
         return (
